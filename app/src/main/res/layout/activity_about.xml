@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="332dp"
+        android:layout_height="390dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="casual"
+        android:text="Aplikasi WIBUMeter untuk para manusia NOLIFE dan ISEKAI, mengukur seberapa wibu anda dalam satuan wibu per sekon.\n \nSatuan wibu setara dengan satu kegiatran yang menurut anda menjadi seorang Jepang, misal coba-coba membaca aksara Jepang maka anda terhitung sebagai 1 WIBU.\n Seribu WIBU setara dengan menonton anime 10 menit. Sepuluh ribu WIBU setara dengan menonton anime dengan subtitle Jepang selama 10 menit. Sisanya anda dapat mengira-ngira sendiri.\n \nSemoga aplikasi ini dapat mengisi hari NOLIFE anda sebagai  WIBU. SELAMAT MENGGUNAKAN, WIBU!!"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="casual"
+        android:text="~Best Regards\n\nYour Dumped Waifu/Husbando"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="monospace"
+        android:text="Kesalahan pengukuran level keWIBUan bukan merupakan tanggung jawab developer \nKritik dan saran hubungi stanleyheryanto@mail.ugm.ac.id"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorAccent"
+        android:textSize="6sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
